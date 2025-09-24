@@ -40,6 +40,7 @@
             btnAceptar.TabIndex = 0;
             btnAceptar.Text = "Aceptar";
             btnAceptar.UseVisualStyleBackColor = true;
+            btnAceptar.Click += btnAceptar_Click;
             // 
             // lblBienvenido
             // 
@@ -51,6 +52,7 @@
             lblBienvenido.Size = new Size(439, 56);
             lblBienvenido.TabIndex = 1;
             lblBienvenido.Text = "Bienvenido al Sistema";
+            lblBienvenido.Click += lblBienvenido_Click;
             // 
             // fmrInicio
             // 

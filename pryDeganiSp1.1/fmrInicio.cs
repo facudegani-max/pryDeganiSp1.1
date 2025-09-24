@@ -16,5 +16,15 @@ namespace pryDeganiSp1._1
         {
             InitializeComponent();
         }
+
+        private void lblBienvenido_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAceptar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

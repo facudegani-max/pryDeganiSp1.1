@@ -44,7 +44,6 @@
             lblUsuario.Size = new Size(59, 20);
             lblUsuario.TabIndex = 0;
             lblUsuario.Text = "Usuario";
-            lblUsuario.Click += this.lblUsuario_Click;
             // 
             // lblContraseña
             // 
@@ -54,7 +53,6 @@
             lblContraseña.Size = new Size(83, 20);
             lblContraseña.TabIndex = 1;
             lblContraseña.Text = "Contraseña";
-            lblContraseña.Click += this.lblContraseña_Click;
             // 
             // txtUsuario
             // 
@@ -63,7 +61,6 @@
             txtUsuario.Name = "txtUsuario";
             txtUsuario.Size = new Size(144, 27);
             txtUsuario.TabIndex = 2;
-            txtUsuario.TextChanged += this.txtUsuario_TextChanged;
             // 
             // txtContraseña
             // 
@@ -81,7 +78,7 @@
             btnAceptar.TabIndex = 4;
             btnAceptar.Text = "Aceptar";
             btnAceptar.UseVisualStyleBackColor = true;
-            btnAceptar.Click += this.btnAceptar_Click;
+            btnAceptar.Click += btnAceptar_Click;
             // 
             // btnCancelar
             // 
@@ -91,6 +88,7 @@
             btnCancelar.TabIndex = 5;
             btnCancelar.Text = "Cancelar";
             btnCancelar.UseVisualStyleBackColor = true;
+            btnCancelar.Click += btnCancelar_Click;
             // 
             // fmrLogin
             // 
